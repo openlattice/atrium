@@ -2,26 +2,18 @@ import express from 'express';
 import path from 'path';
 import webpack from 'webpack';
 
-import bhrWebpackConfig from '../baltimore-health/config/webpack/webpack.config.dev.js';
-import edmWebpackConfig from '../lattice-edm/config/webpack/webpack.config.dev.js';
-import ehrWebpackConfig from '../electronic-client-record/config/webpack/webpack.config.dev.js';
-import loginWebpackConfig from '../lattice-login/config/webpack/webpack.config.dev.js';
+import appConfigPaths from './configs';
 
 const app = express();
 
-[
-  loginWebpackConfig,
-  edmWebpackConfig,
-  bhrWebpackConfig,
-  ehrWebpackConfig
-].forEach((webpackConfig) => {
-  let config = webpackConfig;
-  if (typeof webpackConfig === 'function') {
-    config = webpackConfig({});
+appConfigPaths.forEach((configPath) => {
+  let appWebpackConfig = require(configPath).default;
+  if (typeof appWebpackConfig === 'function') {
+    appWebpackConfig = appWebpackConfig({});
   }
-  const compiler = webpack(config);
+  const compiler = webpack(appWebpackConfig);
   const options = {
-    publicPath: config.output.publicPath
+    publicPath: appWebpackConfig.output.publicPath
   };
   app.use(require('webpack-dev-middleware')(compiler, options));
   // app.use(require('webpack-hot-middleware')(compiler));
