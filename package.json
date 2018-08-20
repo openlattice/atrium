@@ -50,5 +50,8 @@
         "BUILD": "development"
       }
     }
+  },
+  "jest": {
+    "testURL": "http://localhost"
   }
 }
