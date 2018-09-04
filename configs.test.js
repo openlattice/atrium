@@ -1,4 +1,4 @@
-import configs from './configs';
+const configs = require('./configs');
 
 describe('webpack config paths', () => {
 
