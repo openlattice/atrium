@@ -1,15 +1,21 @@
-import express from 'express';
-import path from 'path';
-import webpack from 'webpack';
+const express = require('express');
+const path = require('path');
+const webpack = require('webpack');
 
-import appConfigPaths from './configs';
+const appConfigPaths = require('./configs');
 
 const app = express();
 
 appConfigPaths.forEach((configPath) => {
-  let appWebpackConfig = require(configPath).default;
+  let appWebpackConfig = require(configPath);
+  if (appWebpackConfig && appWebpackConfig.default) {
+    appWebpackConfig = appWebpackConfig.default;
+  }
   if (typeof appWebpackConfig === 'function') {
-    appWebpackConfig = appWebpackConfig({});
+    appWebpackConfig = appWebpackConfig({
+      development: true,
+      production: false,
+    });
   }
   const compiler = webpack(appWebpackConfig);
   const options = {
