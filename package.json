@@ -23,11 +23,9 @@
   },
   "license": "GPLv3",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.0",
-    "babel-preset-env": "^1.6.0",
-    "better-npm-run": "0.1.1",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "babel-loader": "^8.0.0",
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
     "jest": "^23.5.0",
@@ -40,16 +38,8 @@
     "webpack-hot-middleware": "^2.22.0"
   },
   "scripts": {
-    "app": "better-npm-run server",
+    "app": "node index.js",
     "test": "jest"
-  },
-  "betterScripts": {
-    "server": {
-      "command": "babel-node index.js --presets env",
-      "env": {
-        "BUILD": "development"
-      }
-    }
   },
   "jest": {
     "testURL": "http://localhost"
