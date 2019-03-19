@@ -24,7 +24,7 @@
   "license": "GPLv3",
   "devDependencies": {
     "@babel/cli": "~7.2.3",
-    "@babel/core": "~7.2.0",
+    "@babel/core": "~7.4.0",
     "babel-loader": "~8.0.0",
     "css-loader": "~2.1.0",
     "file-loader": "~3.0.0",
