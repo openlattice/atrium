@@ -27,8 +27,8 @@
     "@babel/core": "~7.7.0",
     "babel-loader": "~8.0.0",
     "css-loader": "~3.2.0",
-    "file-loader": "~5.0.1",
-    "jest": "~24.8.0",
+    "file-loader": "~5.0.0",
+    "jest": "~25.0.0",
     "rimraf": "~3.0.0",
     "style-loader": "~1.0.0",
     "webpack": "~4.41.0",
@@ -39,6 +39,8 @@
   },
   "scripts": {
     "app": "node index.js",
+    "gsm-install": "git submodule foreach \"npm install --no-package-lock || :\"",
+    "gsm-nuke": "git submodule foreach \"rm -rf node_modules || :\"",
     "test": "jest"
   },
   "jest": {
