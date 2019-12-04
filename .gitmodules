@@ -40,14 +40,14 @@
 [submodule "openlattice.com"]
 	path = openlattice.com
 	url = git@github.com:Lattice-Works/openlattice.com.git
-[submodule "Community-Work-Program"]
-	path = Community-Work-Program
+[submodule "cwp"]
+	path = cwp
 	url = git@github.com:Lattice-Works/Community-Work-Program.git
 [submodule "bhr"]
 	path = bhr
 	url = git@github.com:Lattice-Works/bhr.git
-[submodule "pretrial-case-management"]
-	path = pretrial-case-management
+[submodule "pcm"]
+	path = pcm
 	url = git@github.com:Lattice-Works/pretrial-case-management.git
 [submodule "chronicle"]
 	path = chronicle
