@@ -1,63 +1,66 @@
-[submodule "lattice-login"]
-	path = lattice-login
-	url = git@github.com:openlattice/lattice-login.git
-[submodule "lattice-edm"]
-	path = lattice-edm
-	url = git@github.com:openlattice/lattice-edm.git
-[submodule "lattice-orgs"]
-	path = lattice-orgs
-	url = git@github.com:openlattice/lattice-orgs.git
-[submodule "lattice-auth"]
-	path = lattice-auth
-	url = git@github.com:openlattice/lattice-auth.git
-[submodule "lattice-js"]
-	path = lattice-js
-	url = git@github.com:openlattice/lattice-js.git
-[submodule "lattice-sagas"]
-	path = lattice-sagas
-	url = git@github.com:openlattice/lattice-sagas.git
-[submodule "lattice-ui-kit"]
-	path = lattice-ui-kit
-	url = git@github.com:openlattice/lattice-ui-kit.git
-[submodule "lattice-fabricate"]
-	path = lattice-fabricate
-	url = git@github.com:openlattice/lattice-fabricate.git
-[submodule "lets-js"]
-	path = lets-js
-	url = git@github.com:openlattice/lets-js.git
-[submodule "lets-react"]
-	path = lets-react
-	url = git@github.com:openlattice/lets-react.git
-[submodule "redux-reqseq"]
-	path = redux-reqseq
-	url = git@github.com:openlattice/redux-reqseq.git
-[submodule "import-sort-style-openlattice"]
-	path = import-sort-style-openlattice
-	url = git@github.com:openlattice/import-sort-style-openlattice.git
+# github.com/openlattice
 [submodule "holodeck"]
-	path = holodeck
-	url = git@github.com:openlattice/holodeck.git
-[submodule "openlattice.com"]
-	path = openlattice.com
-	url = git@github.com:Lattice-Works/openlattice.com.git
-[submodule "Community-Work-Program"]
-	path = Community-Work-Program
-	url = git@github.com:Lattice-Works/Community-Work-Program.git
-[submodule "bhr"]
-	path = bhr
-	url = git@github.com:Lattice-Works/bhr.git
-[submodule "pretrial-case-management"]
-	path = pretrial-case-management
-	url = git@github.com:Lattice-Works/pretrial-case-management.git
-[submodule "chronicle"]
-	path = chronicle
-	url = git@github.com:Lattice-Works/chronicle.git
-[submodule "astrometrics"]
-	path = astrometrics
-	url = git@github.com:Lattice-Works/astrometrics.git
-[submodule "praetorium"]
-	path = praetorium
-	url = git@github.com:Lattice-Works/praetorium.git
+  path = holodeck
+  url = git@github.com:openlattice/holodeck.git
+[submodule "import-sort-style-openlattice"]
+  path = import-sort-style-openlattice
+  url = git@github.com:openlattice/import-sort-style-openlattice.git
+[submodule "lattice-auth"]
+  path = lattice-auth
+  url = git@github.com:openlattice/lattice-auth.git
+[submodule "lattice-edm"]
+  path = lattice-edm
+  url = git@github.com:openlattice/lattice-edm.git
+[submodule "lattice-fabricate"]
+  path = lattice-fabricate
+  url = git@github.com:openlattice/lattice-fabricate.git
+[submodule "lattice-js"]
+  path = lattice-js
+  url = git@github.com:openlattice/lattice-js.git
+[submodule "lattice-login"]
+  path = lattice-login
+  url = git@github.com:openlattice/lattice-login.git
+[submodule "lattice-orgs"]
+  path = lattice-orgs
+  url = git@github.com:openlattice/lattice-orgs.git
+[submodule "lattice-sagas"]
+  path = lattice-sagas
+  url = git@github.com:openlattice/lattice-sagas.git
+[submodule "lattice-ui-kit"]
+  path = lattice-ui-kit
+  url = git@github.com:openlattice/lattice-ui-kit.git
+[submodule "lets-js"]
+  path = lets-js
+  url = git@github.com:openlattice/lets-js.git
+[submodule "lets-react"]
+  path = lets-react
+  url = git@github.com:openlattice/lets-react.git
+[submodule "redux-reqseq"]
+  path = redux-reqseq
+  url = git@github.com:openlattice/redux-reqseq.git
+
+# github.com/Lattice-Works
 [submodule "agora"]
-	path = agora
-	url = git@github.com:Lattice-Works/agora.git
+  path = agora
+  url = git@github.com:Lattice-Works/agora.git
+[submodule "astrometrics"]
+  path = astrometrics
+  url = git@github.com:Lattice-Works/astrometrics.git
+[submodule "bhr"]
+  path = bhr
+  url = git@github.com:Lattice-Works/bhr.git
+[submodule "chronicle"]
+  path = chronicle
+  url = git@github.com:Lattice-Works/chronicle.git
+[submodule "cwp"]
+  path = cwp
+  url = git@github.com:Lattice-Works/Community-Work-Program.git
+[submodule "openlattice.com"]
+  path = openlattice.com
+  url = git@github.com:Lattice-Works/openlattice.com.git
+[submodule "pcm"]
+  path = pcm
+  url = git@github.com:Lattice-Works/pretrial-case-management.git
+[submodule "praetorium"]
+  path = praetorium
+  url = git@github.com:Lattice-Works/praetorium.git
