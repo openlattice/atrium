@@ -48,7 +48,7 @@ Atrium is a git superproject containing repositories for frontend applications a
   ~/atrium/lattice-orgs $ npm install --no-package-lock
   ```
   
-  - NOT RECOMMENDED:
+  - NOT RECOMMENDED: (because this will take a **LONG** time)
 
   ```
   ~/atrium $ npm run gsm-install
