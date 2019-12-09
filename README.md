@@ -40,12 +40,15 @@ Atrium is a git superproject containing repositories for frontend applications a
 
 ## Running Locally
 
-1. Atrium will run applications specified in `configs.js`. However, each application needs the `npm install` step. You can either manually go through each project listed in `configs.js`:
+1. Atrium will run applications specified in `configs.js`. However, each application needs the `npm install` step. You can either:
+  - RECOMMENDED: manually go through each project listed in `configs.js` and run `npm install`
+  
   ```
   ~/atrium $ cd lattice-orgs
   ~/atrium/lattice-orgs $ npm install --no-package-lock
   ```
-  ... or you can do that automatically with this command:
+  
+  - NOT RECOMMENDED: (because this will take a **LONG** time)
 
   ```
   ~/atrium $ npm run gsm-install
