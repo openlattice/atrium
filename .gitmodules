@@ -64,3 +64,9 @@
 [submodule "praetorium"]
   path = praetorium
   url = git@github.com:Lattice-Works/praetorium.git
+[submodule "reentry-case-management"]
+	path = reentry-case-management
+	url = git@github.com:Lattice-Works/reentry-case-management.git
+[submodule "lattice-consent"]
+	path = lattice-consent
+	url = git@github.com:openlattice/lattice-consent.git
