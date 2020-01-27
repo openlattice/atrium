@@ -70,3 +70,6 @@
 [submodule "lattice-consent"]
 	path = lattice-consent
 	url = git@github.com:openlattice/lattice-consent.git
+[submodule "roger"]
+	path = roger
+	url = git@github.com:Lattice-Works/roger.git
