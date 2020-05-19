@@ -73,3 +73,6 @@
 [submodule "roger"]
 	path = roger
 	url = git@github.com:Lattice-Works/roger.git
+[submodule "lattice-utils"]
+	path = lattice-utils
+	url = git@github.com:openlattice/lattice-utils.git
