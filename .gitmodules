@@ -8,6 +8,9 @@
 [submodule "lattice-auth"]
   path = lattice-auth
   url = git@github.com:openlattice/lattice-auth.git
+[submodule "lattice-consent"]
+  path = lattice-consent
+  url = git@github.com:openlattice/lattice-consent.git
 [submodule "lattice-edm"]
   path = lattice-edm
   url = git@github.com:openlattice/lattice-edm.git
@@ -29,6 +32,9 @@
 [submodule "lattice-ui-kit"]
   path = lattice-ui-kit
   url = git@github.com:openlattice/lattice-ui-kit.git
+[submodule "lattice-utils"]
+  path = lattice-utils
+  url = git@github.com:openlattice/lattice-utils.git
 [submodule "lets-js"]
   path = lets-js
   url = git@github.com:openlattice/lets-js.git
@@ -65,14 +71,8 @@
   path = praetorium
   url = git@github.com:Lattice-Works/praetorium.git
 [submodule "reentry-case-management"]
-	path = reentry-case-management
-	url = git@github.com:Lattice-Works/reentry-case-management.git
-[submodule "lattice-consent"]
-	path = lattice-consent
-	url = git@github.com:openlattice/lattice-consent.git
+  path = reentry-case-management
+  url = git@github.com:Lattice-Works/reentry-case-management.git
 [submodule "roger"]
-	path = roger
-	url = git@github.com:Lattice-Works/roger.git
-[submodule "lattice-utils"]
-	path = lattice-utils
-	url = git@github.com:openlattice/lattice-utils.git
+  path = roger
+  url = git@github.com:Lattice-Works/roger.git
