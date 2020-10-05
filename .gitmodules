@@ -76,3 +76,6 @@
 [submodule "roger"]
   path = roger
   url = git@github.com:Lattice-Works/roger.git
+[submodule "lattice-community-restorative-court"]
+	path = lattice-community-restorative-court
+	url = git@github.com:Lattice-Works/lattice-community-restorative-court.git
