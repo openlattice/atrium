@@ -27,7 +27,7 @@
     "@babel/core": "~7.11.0",
     "babel-loader": "~8.1.0",
     "css-loader": "~4.3.0",
-    "file-loader": "~6.1.0",
+    "file-loader": "~6.2.0",
     "jest": "~26.4.0",
     "rimraf": "~3.0.0",
     "style-loader": "~1.2.0",
