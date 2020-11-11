@@ -1,4 +1,9 @@
-# github.com/openlattice
+[submodule "community-work-program"]
+  path = community-work-program
+  url = git@github.com:openlattice/community-work-program.git
+[submodule "child-care"]
+  path = child-care
+  url = git@github.com:openlattice/child-care.git
 [submodule "holodeck"]
   path = holodeck
   url = git@github.com:openlattice/holodeck.git
@@ -41,6 +46,9 @@
 [submodule "lets-react"]
   path = lets-react
   url = git@github.com:openlattice/lets-react.git
+[submodule "openlattice.com"]
+  path = openlattice.com
+  url = git@github.com:openlattice/openlattice.com.git
 [submodule "redux-reqseq"]
   path = redux-reqseq
   url = git@github.com:openlattice/redux-reqseq.git
