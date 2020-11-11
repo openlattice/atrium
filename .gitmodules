@@ -52,3 +52,6 @@
 [submodule "redux-reqseq"]
   path = redux-reqseq
   url = git@github.com:openlattice/redux-reqseq.git
+[submodule "reentry-case-management"]
+  path = reentry-case-management
+  url = git@github.com:openlattice/reentry-case-management.git
