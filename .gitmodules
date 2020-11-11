@@ -44,38 +44,3 @@
 [submodule "redux-reqseq"]
   path = redux-reqseq
   url = git@github.com:openlattice/redux-reqseq.git
-
-# github.com/Lattice-Works
-[submodule "agora"]
-  path = agora
-  url = git@github.com:Lattice-Works/agora.git
-[submodule "astrometrics"]
-  path = astrometrics
-  url = git@github.com:Lattice-Works/astrometrics.git
-[submodule "bhr"]
-  path = bhr
-  url = git@github.com:Lattice-Works/bhr.git
-[submodule "chronicle"]
-  path = chronicle
-  url = git@github.com:Lattice-Works/chronicle.git
-[submodule "cwp"]
-  path = cwp
-  url = git@github.com:Lattice-Works/Community-Work-Program.git
-[submodule "openlattice.com"]
-  path = openlattice.com
-  url = git@github.com:Lattice-Works/openlattice.com.git
-[submodule "pcm"]
-  path = pcm
-  url = git@github.com:Lattice-Works/pretrial-case-management.git
-[submodule "praetorium"]
-  path = praetorium
-  url = git@github.com:Lattice-Works/praetorium.git
-[submodule "reentry-case-management"]
-  path = reentry-case-management
-  url = git@github.com:Lattice-Works/reentry-case-management.git
-[submodule "roger"]
-  path = roger
-  url = git@github.com:Lattice-Works/roger.git
-[submodule "lattice-community-restorative-court"]
-	path = lattice-community-restorative-court
-	url = git@github.com:Lattice-Works/lattice-community-restorative-court.git
