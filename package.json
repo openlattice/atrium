@@ -40,7 +40,7 @@
   "scripts": {
     "app": "node index.js",
     "gsm-gfp": "git submodule foreach \"git fetch --prune || :\"",
-    "gsm-install": "git submodule foreach \"npm install --no-package-lock || :\"",
+    "gsm-install": "git submodule foreach \"npm install || :\"",
     "gsm-nuke": "git submodule foreach \"rm -rf node_modules || :\"",
     "gsm-pull": "git submodule foreach \"git pull || :\"",
     "test": "jest"
