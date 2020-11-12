@@ -45,7 +45,7 @@ Atrium is a git superproject containing repositories for frontend applications a
   
   ```
   ~/atrium $ cd lattice-orgs
-  ~/atrium/lattice-orgs $ npm install --no-package-lock
+  ~/atrium/lattice-orgs $ npm install
   ```
   
   - NOT RECOMMENDED: (because this will take a **LONG** time)
@@ -53,7 +53,7 @@ Atrium is a git superproject containing repositories for frontend applications a
   ```
   ~/atrium $ npm run gsm-install
   ```
-  `gsm-install` is just a shortcut for `git submodule foreach "npm install --no-package-lock || :""`
+  `gsm-install` is just a shortcut for `git submodule foreach "npm install || :"`
 
   **NOTE**: `gsm-install` ignores `configs.js` and will run on each subproject defined in `.gitmodules`. If you run `gsm-install`, it will certainly take a long time, so grab some :coffee: :doughnut:
 
