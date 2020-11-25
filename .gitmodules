@@ -1,9 +1,12 @@
-[submodule "community-work-program"]
-  path = community-work-program
-  url = git@github.com:openlattice/community-work-program.git
 [submodule "child-care"]
   path = child-care
   url = git@github.com:openlattice/child-care.git
+[submodule "chronicle-web"]
+  path = chronicle-web
+  url = git@github.com:openlattice/chronicle-web.git
+[submodule "community-work-program"]
+  path = community-work-program
+  url = git@github.com:openlattice/community-work-program.git
 [submodule "holodeck"]
   path = holodeck
   url = git@github.com:openlattice/holodeck.git
