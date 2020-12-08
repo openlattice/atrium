@@ -1,3 +1,6 @@
+[submodule "care"]
+  path = care
+  url = git@github.com:openlattice/care.git
 [submodule "child-care"]
   path = child-care
   url = git@github.com:openlattice/child-care.git
