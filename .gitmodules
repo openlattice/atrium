@@ -19,6 +19,9 @@
 [submodule "lattice-auth"]
   path = lattice-auth
   url = git@github.com:openlattice/lattice-auth.git
+[submodule "lattice-community-restorative-court"]
+  path = lattice-community-restorative-court
+  url = git@github.com:openlattice/lattice-community-restorative-court.git
 [submodule "lattice-consent"]
   path = lattice-consent
   url = git@github.com:openlattice/lattice-consent.git
