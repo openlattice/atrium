@@ -28,6 +28,9 @@
 [submodule "lattice-fabricate"]
   path = lattice-fabricate
   url = git@github.com:openlattice/lattice-fabricate.git
+[submodule "lattice-helpline-center"]
+  path = lattice-helpline-center
+  url = git@github.com:openlattice/lattice-helpline-center.git
 [submodule "lattice-js"]
   path = lattice-js
   url = git@github.com:openlattice/lattice-js.git
