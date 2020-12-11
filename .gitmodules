@@ -1,3 +1,6 @@
+[submodule "astrometrics"]
+  path = astrometrics
+  url = git@github.com:openlattice/astrometrics.git
 [submodule "care"]
   path = care
   url = git@github.com:openlattice/care.git
