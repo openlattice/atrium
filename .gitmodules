@@ -61,6 +61,9 @@
 [submodule "openlattice.com"]
   path = openlattice.com
   url = git@github.com:openlattice/openlattice.com.git
+[submodule "pretrial-case-management"]
+  path = pretrial-case-management
+  url = git@github.com:openlattice/pretrial-case-management.git
 [submodule "redux-reqseq"]
   path = redux-reqseq
   url = git@github.com:openlattice/redux-reqseq.git
