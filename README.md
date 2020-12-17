@@ -35,7 +35,7 @@ Atrium is a git superproject containing repositories for frontend applications a
 
   ```
   ~ $ cd atrium
-  ~/atrium $ npm install --no-package-lock
+  ~/atrium $ npm install
   ```
 
 ## Running Locally
