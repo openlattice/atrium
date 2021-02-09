@@ -1,3 +1,6 @@
+[submodule "access-request"]
+  path = access-request
+  url = git@github.com:openlattice/access-request.git
 [submodule "astrometrics"]
   path = astrometrics
   url = git@github.com:openlattice/astrometrics.git
