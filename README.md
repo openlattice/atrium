@@ -14,8 +14,6 @@ Atrium is a git superproject containing repositories for frontend applications a
 
   https://github.com/openlattice
 
-  https://github.com/Lattice-Works
-
 3. Install `node` and `npm`
 
   ```
