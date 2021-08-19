@@ -13,10 +13,18 @@ Atrium is a git superproject containing repositories for frontend applications a
 2. Join the OpenLattice GitHub organizations
 
   https://github.com/openlattice
+  
+3. Create a new Personal Access Token and select the `read:packages` scope.
+  
+  https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
+  
+4. Update your global `~/.npmrc` file with the new personal access token.
 
-  https://github.com/Lattice-Works
+  ```
+  //npm.pkg.github.com/:_authToken={PERSONAL_ACCESS_TOKEN}
+  ```
 
-3. Install `node` and `npm`
+5. Install `node` and `npm`
 
   ```
   ~ $ node --version
@@ -25,13 +33,13 @@ Atrium is a git superproject containing repositories for frontend applications a
   6.13.0
   ```
 
-3. Clone Atrium
+6. Clone atrium
 
   ```
   git clone git@github.com:openlattice/atrium.git --recurse-submodules
   ```
 
-4. Install
+7. Install
 
   ```
   ~ $ cd atrium
