@@ -23,15 +23,15 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "@babel/cli": "~7.16.0",
-    "@babel/core": "~7.16.0",
-    "babel-loader": "~8.2.2",
-    "jest": "~27.3.1",
+    "@babel/cli": "~7.16.8",
+    "@babel/core": "~7.16.7",
+    "babel-loader": "~8.2.3",
+    "jest": "~27.4.7",
     "rimraf": "~3.0.0",
-    "webpack": "~5.61.0",
-    "webpack-cli": "~4.9.1",
-    "webpack-dev-middleware": "~5.2.1",
-    "webpack-dev-server": "~4.4.0",
+    "webpack": "~5.66.0",
+    "webpack-cli": "~4.9.0",
+    "webpack-dev-middleware": "~5.3.0",
+    "webpack-dev-server": "~4.7.0",
     "webpack-hot-middleware": "~2.25.0"
   },
   "scripts": {
