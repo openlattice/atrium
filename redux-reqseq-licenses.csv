@@ -1,0 +1,5 @@
+"module name","license","repository"
+"@babel/runtime-corejs3@7.16.8","MIT","https://github.com/babel/babel"
+"core-js-pure@3.20.3","MIT","https://github.com/zloirock/core-js"
+"redux-reqseq@0.7.0","Apache-2.0","https://github.com/openlattice/redux-reqseq"
+"regenerator-runtime@0.13.9","MIT","https://github.com/facebook/regenerator/tree/master/packages/runtime"
